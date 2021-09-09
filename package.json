@@ -1,0 +1,27 @@
+{
+  "name": "fast-forward-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/fast-forward-timer.umd.js",
+  "module": "dist/fast-forward-timer.esm.js",
+  "keywords": [
+    "setTimeout"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rm -fr dist && set NODE_ENV=production&& rollup -c rollup.config.js"
+  },
+  "author": "liang5757",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@datastructures-js/priority-queue": "^5.1.1"
+  }
+}
