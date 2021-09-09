@@ -1,6 +1,6 @@
 # fast-forward-timer
 
-收到`jest.advanceTimersByTime(msToRun)`的启发，实现的可以快进延迟的`setTimeout`
+受到`jest.advanceTimersByTime(msToRun)`的启发，实现的可以快进延迟的`setTimeout`
 
 ## 安装
 

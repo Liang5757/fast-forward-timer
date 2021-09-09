@@ -1,6 +1,6 @@
 {
   "name": "fast-forward-timer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/fast-forward-timer.umd.js",
   "module": "dist/fast-forward-timer.esm.js",
